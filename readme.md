@@ -1,2 +1,2 @@
-
-Install command: `pastebin get 8jCkEgXA startup.lua`
+Install command:
+```pastebin get 8jCkEgXA startup.lua```
