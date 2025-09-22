@@ -22,7 +22,7 @@ end
 while(reactor.getActive())
 do
     local c = control()
-    print(string.format("Power output at: %d", 100 - c))
+    print(string.format("Power output at: %d%", 100 - c))
     reactor.setAllControlRodLevels(c)
     sleep(1)
 end
